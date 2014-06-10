@@ -1,0 +1,247 @@
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+    <title>Power House</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <!-- SM/XS Nav-Bar -->
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-fixed-top navbar-inverse visible-xs">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse" id="collapse">
+                    <div class="panel-group navbar-collapse" id="accordion">
+                        <span class="panel-title"><a class="active" href="Index.html">Home</a></span>
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Bases
+        </a>
+      </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="nav">
+                                        <li>
+                                            <a href="Base_Bio_Lab.html">Bio Lab</a>
+                                        </li>
+                                        <li> <a href="Base_Double_Decker.html">Double Decker</a>
+                                        </li>
+                                        <li>
+                                            <a href="Base_Power_House.html">Power House</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Loadouts
+        </a>
+      </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <ul class="nav" id="loadouts">
+                                        <li>
+                                            <a href="Loadouts_Infiltrator.html">Infiltrator</a>
+                                        </li>
+                                        <li>
+                                            <a href="Loadouts_Light_Assault.html">Light Assault</a>
+                                        </li>
+                                        <li>
+                                            <a href="Loadouts_Medic.html">Medic</a>
+                                        </li>
+                                        <li>
+                                            <a href="Loadouts_Engineer.html">Engineer</a>
+                                        </li>
+                                        <li> <a href="Loadouts_Heavy_Assault.html">Heavy Assault</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <!-- End SM/MD Nav-Bar -->
+        <!-- Start MD/LG Nav-Bar -->
+        <ul class="nav nav-pills hidden-xs nav-lg">
+            <li class="btn"><a href="index.html">Home</a>
+            </li>
+            <li class="btn dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#baseslg"><span>Bases</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Base_Bio_Lab.html">Bio Lab</a>
+                    </li>
+                    <li><a href="Base_Double_Decker.html">Double Decker</a>
+                    </li>
+                    <li><a href="Base_Power_House.html">Power House</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="btn dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#loadoutlg"><span>Loadouts</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="Loadouts_Infiltrator.html">Infiltrator</a>
+                    </li>
+                    <li><a href="Loadouts_Light_Assault.html">Light Assault</a>
+                    </li>
+                    <li><a href="Loadouts_Medic.html">Medic</a>
+                    </li>
+                    <li><a href="Loadouts_Engineer.html">Engineer</a>
+                    </li>
+                    <li><a href="Loadouts_Heavy_Assault.html">Heavy Assault</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+        <!-- End Page Heading -->
+        <div class="row">
+            <div class="col-xs-1 col-md-2"></div>
+            <span class="h1 center-block col-xs-10 col-md-8 pagehead">The Power House</span>
+            <div class="col-xs-1 col-md-2"></div>
+        </div>
+        <!-- Start Carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/Bases/2014-04-28_00004.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Main Floor
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Bases/2014-04-28_00005.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Recovery
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Bases/2014-04-28_00006.jpg" alt="...">
+                    <div class="carousel-caption">
+                        Bridge Room
+                    </div>
+                </div>
+                ...
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!-- End Carousel -->
+        <div class="row">
+            <!-- Breach Procedure -->
+            <div class="content col-sm-5">
+                <span class="text-center center-block contenthead h1 xpanel-body">Breaching</span>
+                <p>To breach the powerhouse you will need to get past the recovery floor. This is where most people will make their stand do to its higher position and good choke points. To get past these choke points you will need Explosives</p>
+                <span class="text-center center-block h3 xpanel-body contenthead">What you will need</span>
+                <ul>
+                    <li>Classes
+                        <ul>
+                            <li>2 Medics</li>
+                            <li>2 Engineers</li>
+                            <li>2 MAX</li>
+                            <li>1 Infiltrator</li>
+                            <li>4 Heavy Assaults</li>
+                            <li>1 Light Assaults</li>
+                        </ul>
+                    </li>
+                </ul>
+                <span class="text-center center-block h3 xpanel-body contenthead">Procedure</span>
+                <ol>
+                    <li>Engineer: Place ammo outside the back door for the infiltrator.
+                        <li>Infiltrator: Spam darts or place a motion spotter.</li>
+                        <li>At the bottom of the stairs out of view of the enemy form up in order of Max, Heavy Assaults and Engineers, Medics with MAX being closest to the stairs.</li>
+                        <li>Heavy Assaults: Throw Concussion Grenades from bottom of stairs up to the top level</li>
+                        <li>As Soon as Concussion Grenades go off, All people in bottom floor rush up</li>
+                        <li>For maximum effect you can do this at both staircases as there are two</li>
+                        <li>Medics can stay back a bit and throw revive grenades as needed.</li>
+                </ol>
+            </div>
+            <div class="col-sm-2 hidden-xs"></div>
+            <!-- Spacer -->
+            <!-- Defence Procedure -->
+            <div class="content col-sm-5">
+                <span class="text-center center-block contenthead h1 xpanel-body">Defending</span>
+                If done strategicly, this base is very easy to defend up to very high odds. With one squad we were able to hold it against 48+ (30%VS against 70%NC). When you are defending remember <b>Choke Points Are Key</b>. The only way they can get in to the top are from 2 Staircases on the bottom, windows on the second floor, and 2 roof staircases. The windows and roof staircases will only be accessible by light assaults which means most of your forces can be dedicated to defending the two ground staircases.
+
+                <span class="text-center center-block h3 xpanel-body contenthead">What You Will Need</span>
+                <ul>
+                    <li>Classes
+                        <ul>
+                            <li>2 Medics</li>
+                            <li>3 Engineers</li>
+                            <li>1 Infiltrator</li>
+                            <li>4 Heavy Assaults</li>
+                            <li>2 Maxes</li>
+                        </ul>
+                    </li>
+                </ul>
+                <span class="text-center center-block contenthead h3 xpanel-body">Procedure</span>
+                <ul>
+                    <li>Divide the squad up for each room. In each room there should be
+                        <ul>
+                            <li>1 Max</li>
+                            <li>1 Engineer</li>
+                            <li>1 Medic</li>
+                            <li>2 Heavy Assaults</li>
+                        </ul>
+                    </li>
+                </ul>
+                <li>The final engineer should help on any side that is getting hit hard.</li>
+                <li>The Infiltrator will work from the center</li>
+                <ol>
+                    <li>Engineers: Place your ammo packs in the center of your respective rooms. Also place your turrets as shields at the top of the staircases.</li>
+                    <li>Third Engineer: Place your ammo pack in the center doorway for the infiltrator.</li>
+                    <li>Infiltrator: Start spamming darts or place motion spotter</li>
+                    <li>Medics: Stand out of site of any windows or other entrances where you could be shot from.</li>
+                    <li>Maxes and Heavy Assaults: Position at the top of your respective staircases</li>
+                    <li>Engineers: Place your C-4 on the staircase overhangs.</li>
+                </ol>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!-- javascript -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
