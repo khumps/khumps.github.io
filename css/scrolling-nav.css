@@ -32,23 +32,36 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 .hotels-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 .flights-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 .tours-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #eee;
+}
+
+.about-section {
+    height: 80%;
+    padding-top: 150px;
+    text-align: center;
+    background-color: fff;
+}
+
+.cruises-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
 }
