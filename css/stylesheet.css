@@ -6,15 +6,21 @@
 .italy-section {
     height: 100%;
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black;
+    color: black;
+    /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
     background-image: url(/images/NORIGHTS/358910-svetik.jpg);
     background-attachment: fixed;
-    text-emphasis:
 }
 .section-text-gray {
     background-color: #eee;
 }
 .section-text-white {
+    min-height: 100%;
+    height: 100%;
     background-color: #fff;
+    margin-left: -20px;
+}
+.gallery-div {
+    /*    margin-top: 300px;*/
+    /* padding-top: 300px;*/
 }

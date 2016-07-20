@@ -25,7 +25,7 @@ html {
 }
 .scroll-section {
     height: 100%;
-    padding-top: 80px;
+/*    padding-top: 80px;*/
 }
 .intro-section {
     height: 100%;
@@ -33,15 +33,7 @@ html {
     background: #eee;
     padding-top: 120px;
 }
-.hotels-section {
-    height: 100%;
-    text-align: center;
-    color:white;
-    text-shadow: 1px 1px black,0px 1px black,-1px 1px black,1px 0px black,1px -1px black;
-    background-image: url(/images/NORIGHTS/358910-svetik.jpg);
-    background-attachment:fixed;
-    background-color: aqua;
-}
+
 .flights-section {
     height: 100%;
     text-align: center;
