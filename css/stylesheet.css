@@ -13,6 +13,8 @@
     background-attachment: fixed;
 }
 .section-text-gray {
+    height: 100%;
+    margin-left: -20px;
     padding-top: 40px;
     background-color: #eee;
 }
