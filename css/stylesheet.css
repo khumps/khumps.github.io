@@ -1,29 +1,66 @@
+/* Code property of Kevin Humphreys */
+
 .gallery {
     width: 130px;
     height: auto;
     margin: 5px;
     border: 2px solid white;
 }
-.italy-section {
+.destination-section {
     height: 100%;
     text-align: center;
     color: black;
     /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
-    background-image: url(/./images/NORIGHTS/358910-svetik.jpg);
     background-attachment: fixed;
 }
-.section-text-gray {
+.italy-section {
+    background-image: url(/./images/NORIGHTS/358910-svetik.jpg);
+}
+.spain-section {
+    background-image: url(/./images/italy/italy1.jpg);
+    background-size: cover;
+}
+.france-section {
+    background-image: url(/./images/italy/italy2.jpg);
+    background-size: cover;
+}
+.greece-section {
+    background-image: url(/./images/italy/italy3.jpg);
+    background-size: cover;
+}
+.disney-section {
+    background-image: url(/./images/italy/italy4.jpg);
+    background-size: cover;
+}
+.carribean-section {
+    background-image: url(/./images/italy/italy5.jpg);
+    background-size: cover;
+}
+.section-text {
     height: 100%;
     margin-left: -20px;
     padding-top: 40px;
+}
+.background-gray {
     background-color: #eee;
 }
-.section-text-white {
-    height: 100%;
+.background-white {
     background-color: #fff;
-    margin-left: -20px;
-    padding-top: 40px;
+}
+.background-blue {
+    background-color: azure;
+}
+
 }
 .gallery-div {
     padding-top: 60px;
+}
+.services-section {
+    height: auto;
+    padding-bottom: 20px;
+}
+.heading {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 20px;
 }
