@@ -1,5 +1,14 @@
 /* Code property of Kevin Humphreys */
 
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
 .gallery {
     width: 130px;
     height: auto;
@@ -13,7 +22,7 @@
     /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
     background-attachment: fixed;
 }
-.italy-section {
+.africa-section {
     background-image: url(/./images/NORIGHTS/358910-svetik.jpg);
 }
 .spain-section {
