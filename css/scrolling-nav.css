@@ -20,6 +20,7 @@ Modified by Kevin Humphreys
 }
 .scroll-section {
     /*height: 100%;*/
+    min-height: 80%;
     margin-bottom: 20px;
 }
 .intro-section {
@@ -29,25 +30,10 @@ Modified by Kevin Humphreys
     padding-top: 100px;
     padding-bottom: 10px;
 }
-.flights-section {
-    height: 100%;
-    text-align: center;
-    background: #eee;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(/./images/italy/italy1.jpg);
-    background-attachment: fixed;
-}
-.tours-section {
-    height: 100%;
-    text-align: center;
-    background: #eee;
-}
 .about-section {
     padding-top: 40px;
     height: 80%;
     text-align: center;
-    background-color: #eee;
 }
 .cruises-section {
     height: 100%;

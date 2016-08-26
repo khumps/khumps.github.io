@@ -3,7 +3,9 @@
 body {
     width: 100%;
     /*height: 100%;*/
-    font-size: 20px;
+    font-size: 22px;
+    background-image: url(/./images/);
+    background-attachment: fixed;
 }
 html {
     width: 100%;
@@ -52,11 +54,11 @@ html {
     background-size: cover;
 }
 .section-text {
-    height: 100%;
-    margin-left: -20px;
+    min-height: 100%;
+    /*    margin-left: -20px;*/
     padding-top: 40px;
     padding-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .background-gray {
     background-color: #eee;
@@ -85,6 +87,20 @@ html {
 .hawaii-section {
     background-image: url(/./images/hawaii.png);
 }
-.nav li {
+.nav li a {
     font-size: 24px;
+    color: black;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #777;
+}
+.europe-section {
+    background-image: url(/./images/europe_cropped.png);
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
