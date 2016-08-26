@@ -20,6 +20,7 @@ Modified by Kevin Humphreys
 }
 .scroll-section {
     /*height: 100%;*/
+    margin-bottom: 20px;
 }
 .intro-section {
     width: inherit;
