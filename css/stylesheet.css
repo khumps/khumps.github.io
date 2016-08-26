@@ -13,7 +13,7 @@ html {
 }
 .gallery {
     width: 250px;
-    height: auto;
+    height: 100%;
     margin: 5px;
     border: 2px solid white;
 }
@@ -22,12 +22,11 @@ html {
     margin-right: 5px;
 }
 .destination-section {
-    height: 100%;
+    min-height: 600px;
     text-align: center;
     color: black;
     /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
     background-attachment: fixed;
-    padding-bottom:
 }
 .africa-section {
     background-image: url(/./images/map-of-africa.gif);
@@ -53,8 +52,28 @@ html {
     background-image: url(/./images/italy/italy5.jpg);
     background-size: cover;
 }
+.intro-section {
+    width: inherit;
+    text-align: center;
+    background: #eee;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.about-section {
+    padding-top: 40px;
+    height: 80%;
+    text-align: center;
+}
+.cruises-section {
+    height: 100%;
+    text-align: center;
+}
+.contact-section {
+    padding-top: 40px;
+    text-align: center;
+}
 .section-text {
-    min-height: 400px;
+    height: 100%;
     /*    margin-left: -20px;*/
     padding-top: 40px;
     padding-bottom: 10px;
@@ -99,9 +118,14 @@ html {
     color: #777;
 }
 .europe-section {
-    background-image: url(/./images/europe_cropped.png);
+    background-image: url(/./images/europe-map-countries.jpg);
+    background-size: cover;
 }
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+}
+.caribbean-section {
+    background-image: url(/./images/caribbean_map.gif);
+    background-size: cover;
 }

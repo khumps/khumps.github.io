@@ -19,9 +19,6 @@ Modified by Kevin Humphreys
     }
 }
 .scroll-section {
-    /*height: 100%;*/
-    min-height: 80%;
-    margin-bottom: 20px;
 }
 .intro-section {
     width: inherit;
