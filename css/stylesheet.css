@@ -3,8 +3,8 @@
 body {
     width: 100%;
     /*height: 100%;*/
-    font-size: 22px;
-    background-image: url(/./images/);
+    font-size: 26px;
+    background-image: url(/./images/weather.png);
     background-attachment: fixed;
 }
 html {
@@ -54,11 +54,12 @@ html {
     background-size: cover;
 }
 .section-text {
-    min-height: 100%;
+    min-height: 400px;
     /*    margin-left: -20px;*/
     padding-top: 40px;
     padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
 }
 .background-gray {
     background-color: #eee;
