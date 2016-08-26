@@ -29,7 +29,7 @@ html {
 }
 .africa-section {
     background-image: url(/./images/map-of-africa.gif);
-    background-size:cover;
+    background-size: cover;
 }
 .spain-section {
     background-image: url(/./images/italy/italy1.jpg);
@@ -56,7 +56,7 @@ html {
     margin-left: -20px;
     padding-top: 40px;
     padding-bottom: 10px;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 .background-gray {
     background-color: #eee;
@@ -82,7 +82,9 @@ html {
     height: auto;
     border-bottom: 20px;
 }
-
 .hawaii-section {
     background-image: url(/./images/hawaii.png);
+}
+.nav li {
+    font-size: 24px;
 }
