@@ -2,18 +2,15 @@
 
 body {
     width: 100%;
-    /*height: 100%;*/
     font-size: 26px;
     background-image: url(/./images/weather.png);
     background-attachment: fixed;
 }
 html {
     width: 100%;
-    height: 100%;
 }
 .gallery {
     width: 250px;
-    height: 100%;
     margin: 5px;
     border: 2px solid white;
 }
@@ -27,6 +24,7 @@ html {
     color: black;
     /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
     background-attachment: fixed;
+    display: table;
 }
 .africa-section {
     background-image: url(/./images/map-of-africa.gif);
@@ -73,12 +71,11 @@ html {
     text-align: center;
 }
 .section-text {
-    height: 100%;
-    /*    margin-left: -20px;*/
     padding-top: 40px;
     padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     vertical-align: middle;
+    display: table-cell;
 }
 .background-gray {
     background-color: #eee;
@@ -92,8 +89,8 @@ html {
 
 }
 .gallery-div {
-    min-height: 100%;
     padding-top: 60px;
+    display: table-column;
 }
 .services-section {
     height: auto;
@@ -128,4 +125,29 @@ html {
 .caribbean-section {
     background-image: url(/./images/caribbean_map.gif);
     background-size: cover;
+}
+.intro-section {
+    width: inherit;
+    text-align: center;
+    background: #eee;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+.about-section {
+    padding-top: 40px;
+    height: 80%;
+    text-align: center;
+}
+.cruises-section {
+    background-image: url(/./images/cruise.jpg);
+    height: 100%;
+    text-align: center;
+}
+.contact-section {
+    padding-top: 40px;
+    text-align: center;
+}
+.galleria {
+    width: auto;
+    height: 500px;
 }

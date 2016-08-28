@@ -18,29 +18,4 @@ Modified by Kevin Humphreys
         padding: 0;
     }
 }
-.scroll-section {
-}
-.intro-section {
-    width: inherit;
-    text-align: center;
-    background: #eee;
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-.about-section {
-    padding-top: 40px;
-    height: 80%;
-    text-align: center;
-}
-.cruises-section {
-    height: 100%;
-    text-align: center;
-}
-.contact-section {
-    padding-top: 40px;
-    text-align: center;
-}
-.galleria {
-    width: auto;
-    height: 500px;
-}
+.scroll-section {}
