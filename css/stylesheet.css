@@ -5,6 +5,7 @@ body {
     font-size: 26px;
     background-image: url(/./images/weather.png);
     background-attachment: fixed;
+    color: black;
 }
 html {
     width: 100%;
