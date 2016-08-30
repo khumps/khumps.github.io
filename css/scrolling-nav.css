@@ -8,12 +8,14 @@ Modified by Kevin Humphreys
 
 @media(min-width:800px) {
     .navbar {
-        padding-bottom: 10px;
         -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
         font-size: 20px;
+        padding-bottom: 10px;
     }
-    .top-nav-collapse {}
+    .top-nav-collapse {
+        padding: 0px;
+    }
 }
 .scroll-section {}
