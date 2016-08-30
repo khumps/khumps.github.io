@@ -46,18 +46,19 @@ html {
     text-align: center;
 }
 .africa-section {
-    background-image: url(/./images/map-of-africa.gif);
+    background-image: url(/./images/africa.JPG);
     background-size: cover;
 }
 .hawaii-section {
     background-image: url(/./images/hawaii.png);
 }
 .cruises-section {
+    background-image: url(/./images/cruise.jpg);
     height: 100%;
     text-align: center;
 }
-.carribean-section {
-    background-image: url(/./images/italy/italy5.jpg);
+.caribbean-section {
+    background-image: url(/./images/caribbean_map.gif);
     background-size: cover;
 }
 .europe-section {
