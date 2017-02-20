@@ -7,18 +7,22 @@ body {
     background-attachment: fixed;
     color: black;
 }
+
 html {
     width: 100%;
 }
+
 .gallery {
     width: 250px;
-    margin: 5px;
+    // margin: 5px;
     border: 2px solid white;
 }
+
 .menu-item {
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .destination-section {
     min-height: 600px;
     text-align: center;
@@ -26,93 +30,129 @@ html {
     /** text-shadow: 1px 1px black, 0px 1px black, -1px 1px black, 1px 0px black, 1px -1px black; **/
     background-attachment: fixed;
     display: table;
+    width: 100%;
 }
+
 .intro-section {
     width: inherit;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 10px;
 }
+
 .about-section {
     padding-top: 40px;
     height: 80%;
     text-align: center;
 }
+
 .services-section {
     height: auto;
     padding-bottom: 20px;
 }
+
 .contact-section {
     padding-top: 40px;
     text-align: center;
 }
+
+.section-text {
+    //padding-top: 40px;
+    //padding-bottom: 10px;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.7);
+    vertical-align: middle;
+    display: table-cell;
+}
+
 .africa-section {
     background-image: url(/./images/africa.jpg);
     background-size: cover;
+    height: 100%;
 }
+
 .hawaii-section {
     background-image: url(/./images/hawaii.png);
+    background-size: cover;
+    height: 100%;
 }
+
 .cruises-section {
     background-image: url(/./images/cruise.jpg);
     height: 100%;
     text-align: center;
 }
+
 .caribbean-section {
     background-image: url(/./images/caribbean_map.gif);
     background-size: cover;
+    height: 100%;
 }
+
 .europe-section {
     background-image: url(/./images/europe-map-countries.jpg);
     background-size: cover;
+    height: 100%;
 }
-.section-text {
-    padding-top: 40px;
-    padding-bottom: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    vertical-align: middle;
-    display: table-cell;
-}
+
 .background-gray {
     background-color: #eee;
 }
+
 .background-white {
     background-color: #fff;
 }
+
 .background-blue {
     background-color: azure;
 }
+
 .gallery-div {
     padding-top: 60px;
 }
+
 .heading {
     max-width: 100%;
     height: auto;
     border-bottom: 20px;
 }
+
 .nav li a {
     font-size: 28px;
     color: black;
 }
+
 .navbar-default .navbar-nav > li > a {
     color: black;
 }
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #777;
 }
+
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
 }
+
 .galleria {
     width: auto;
     height: 500px;
 }
+
 .nav-container {
     margin: 0 auto;
     display: table;
 }
+
 .section-header {
-    padding-top: 145px;
-    visibility: hidden;
+    padding: 0px;
+    display: none;
+}
+
+section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
